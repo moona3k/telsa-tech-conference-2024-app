@@ -6,7 +6,7 @@ const ConferenceSchedule = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [darkMode, setDarkMode] = useState(false);
 
-  const lastUpdated = "2024-08-05"; // Update this date when the schedule changes
+  const lastUpdated = "2024-08-06";
 
   useEffect(() => {
     // Check for user's preference
